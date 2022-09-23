@@ -1,4 +1,4 @@
-package Processors
+package processor
 
 import (
 	"github.com/simple-analytics-caculator/models"
