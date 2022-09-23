@@ -4,10 +4,10 @@ import (
 	"github.com/skumaran141989/simple-analytics-caculator/models"
 )
 
-type SimpleSuccefulAnalytics struct {
+type SimpleSuccessfulAttacksCalculator struct {
 }
 
-func (*SimpleSuccefulAnalytics) Calculate(input any) (any, error) {
+func (*SimpleSuccessfulAttacksCalculator) Calculate(input any) (any, error) {
 	events := input.([]models.WallAttackEvent)
 	count := 0
 	currentWallSize := make(map[string]int64)
