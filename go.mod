@@ -1,3 +1,3 @@
-module 	github.com/simple-analytics-caculator
+module github.com/skumaran141989/simple-analytics-caculator
 
 go 1.18

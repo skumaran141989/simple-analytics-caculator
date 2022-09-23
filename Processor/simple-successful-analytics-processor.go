@@ -1,7 +1,7 @@
 package processor
 
 import (
-	"github.com/simple-analytics-caculator/models"
+	"github.com/skumaran141989/simple-analytics-caculator/models"
 )
 
 type SimpleSuccefulAnalytics struct {
